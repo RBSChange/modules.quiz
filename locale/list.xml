@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+	<entity id="processtype.resultonly">
+		<locale lang="fr">résultat seulement</locale>
+		<locale lang="en"></locale>
+	</entity>
+	
+	<entity id="processtype.participationonly">
+		<locale lang="fr">participation seulement</locale>
+		<locale lang="en"></locale>
+	</entity>
+	
+	<entity id="processtype.participationandresult">
+		<locale lang="fr">participation et résultats</locale>
+		<locale lang="en"></locale>
+	</entity>
+</localization>

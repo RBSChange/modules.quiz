@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://www.rbs.fr/schema/change-document/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.rbs.fr/schema/change-document/1.0 http://www.rbschange.fr/static/schema/change-document/1.0.xsd" 
+    model-version="1.0" icon="lightbulb_on" has-url="false" 
+    publish-on-day-change="false" backoffice-indexable="false">
+	<properties>
+		<add name="label" type="String" min-occurs="1" max-occurs="1"/>
+		<add name="quiz" type="modules_quiz/quiz" min-occurs="1" max-occurs="1" inverse="true"/>
+		<add name="allright" type="Boolean" min-occurs="1" max-occurs="1"/>
+		<add name="title" type="String" min-occurs="0" max-occurs="1" from-list="modules_quiz/title" />
+		<add name="lastname" type="String" min-occurs="1" max-occurs="1"/>
+		<add name="firstname" type="String" min-occurs="1" max-occurs="1"/>
+		<add name="email" type="String" min-occurs="1" max-occurs="1"/>
+		<add name="address" type="String" min-occurs="1" max-occurs="1"/>
+		<add name="city" type="String" min-occurs="1" max-occurs="1"/>
+		<add name="postalcode" type="String" min-occurs="1" max-occurs="1"/>
+		<add name="country" type="String" min-occurs="1" max-occurs="1" from-list="modules_quiz/country"/>
+	</properties>
+</document>

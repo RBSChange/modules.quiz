@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="module-name">
+    <locale lang="fr">quiz</locale>
+    <locale lang="en">quiz</locale>
+    <locale lang="de">Quiz</locale>
+  </entity>
+  <entity id="tree-root-name">
+    <locale lang="fr">quiz</locale>
+    <locale lang="en">quiz</locale>
+    <locale lang="de">Quiz</locale>
+  </entity>
+  <entity id="system-folder-name">
+    <locale lang="fr">quiz</locale>
+    <locale lang="en">quiz</locale>
+    <locale lang="de">Quiz</locale>
+  </entity>
+  <entity id="export.quiz">
+    <locale lang="fr">quiz</locale>
+    <locale lang="en"/>
+  </entity>
+  <entity id="export.correct">
+    <locale lang="fr">gagnant</locale>
+    <locale lang="en"/>
+  </entity>
+  <entity id="export.title">
+    <locale lang="fr">civilité</locale>
+    <locale lang="en"/>
+  </entity>
+  <entity id="export.lastname">
+    <locale lang="fr">nom</locale>
+    <locale lang="en"/>
+  </entity>
+  <entity id="export.firstname">
+    <locale lang="fr">prénom</locale>
+    <locale lang="en"/>
+  </entity>
+  <entity id="export.email">
+    <locale lang="fr">email</locale>
+    <locale lang="en"/>
+  </entity>
+  <entity id="export.address">
+    <locale lang="fr">adresse</locale>
+    <locale lang="en"/>
+  </entity>
+  <entity id="export.city">
+    <locale lang="fr">ville</locale>
+    <locale lang="en"/>
+  </entity>
+  <entity id="export.postalcode">
+    <locale lang="fr">code postal</locale>
+    <locale lang="en"/>
+  </entity>
+  <entity id="export.country">
+    <locale lang="fr">pays</locale>
+    <locale lang="en"/>
+  </entity>
+  <entity id="export.ok">
+    <locale lang="fr">oui</locale>
+    <locale lang="en"/>
+  </entity>
+  <entity id="export.Nok">
+    <locale lang="fr">non</locale>
+    <locale lang="en"/>
+  </entity>
+</localization>

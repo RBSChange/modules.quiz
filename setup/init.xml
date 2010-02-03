@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<script>
+	<binding fileName="modules/list/persistentdocument/import/list_binding.xml" />
+	<binding fileName="modules/notification/persistentdocument/import/notification_binding.xml" />
+	<binding fileName="modules/form/persistentdocument/import/form_binding.xml" />
+	<binding fileName="modules/quiz/persistentdocument/import/quiz_binding.xml" />
+
+	<rootfolder module="preferences">
+		<quizpreferences />
+	</rootfolder>
+		
+	<systemfolder module="list" relatedmodule="quiz">
+	
+		<staticlist listid="modules_quiz/processtype" 
+			label="Type de processus après la validation d'un quiz"
+			description="Type de processus après la validation d'un quiz. Par défaut affichage des résultats seulement.">
+			<staticitem label="&amp;modules.quiz.list.processtype.resultonly;" value="0" />
+			<staticitem label="&amp;modules.quiz.list.processtype.participationonly;" value="1" />
+			<staticitem label="&amp;modules.quiz.list.processtype.participationandresult;" value="2" />
+		</staticlist>
+		
+		<editablelist id="l_title" listid="modules_quiz/title" order="false"
+			label="Civilités pour le module quiz"
+			description="Civilités pour le module quiz">	
+			<item label-fr="M." label-en="Mr"/>
+			<item label-fr="Mlle" label-en="Mlle"/>
+			<item label-fr="Mme" label-en="Mme"/>
+		</editablelist>	
+
+		<editablelist id="l_country" listid="modules_quiz/country" order="false"
+			label="Pays pour le module quiz"
+			description="Pays pour le module quiz">	
+			<item label="France" />
+			<item label="Autre"/>
+		</editablelist>			
+	</systemfolder>
+		
+	<systemfolder module="form" relatedmodule="quiz">
+		<form formid="modules_quiz/participe" 
+			label="Formulaire pour participer à un quiz" 
+			submitButton="Envoyer" confirmMessage="Merci d'avoir participé au quiz."
+			useBackLink="false"
+			markup="default">
+			
+			<fieldhidden fieldName="allright" label="ok" />	
+			<fieldhidden fieldName="data" label="data" />
+				
+			<fieldlist fieldName="title" label="Civilité" display="list"
+					required="true" dataSource-refid="l_title" />	
+									
+			<fieldtext fieldName="firstname" label="Prénom" 
+				required="false" multiline="false" cols="50" maxlength="255"
+				validators="maxSize:255" />		
+
+			<fieldtext fieldName="lastname" label="Nom" 
+				required="true" multiline="false" cols="50" maxlength="255"
+				validators="blank:false;maxSize:255" />
+				
+			<fieldtext fieldName="email" label="Adresse e-mail" 
+				required="true" multiline="false" cols="50" maxlength="255"
+				validators="blank:false;maxSize:255;minSize:0;email:true" />				
+				
+			<fieldtext fieldName="address" label="Adresse" 
+				required="true" multiline="false" cols="50" maxlength="255"
+				validators="blank:false;maxSize:255" />					
+
+			<fieldtext fieldName="postalcode" label="Code postal" 
+				required="false" multiline="false" cols="10" maxlength="20"
+				validators="maxSize:20" />	
+								
+			<fieldtext fieldName="city" label="Ville" 
+				required="false" multiline="false" cols="50" maxlength="255"
+				validators="maxSize:255" />
+				
+			<fieldlist fieldName="country" label="Pays" display="list"
+					required="true" dataSource-refid="l_country" />																										
+		</form>	
+	</systemfolder>
+	
+	<systemfolder module="notification" relatedmodule="quiz">	
+			<notification 
+				label="Notification de la participation"
+				codename="modules_quiz/participant"
+				subject="Participation à notre quiz."
+				body="Nous vous remercions de votre participation à notre quiz."
+				/>
+	</systemfolder>
+</script>

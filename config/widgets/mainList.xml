@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<behaviour>
+	<event type="select contextmenu" actions="deactivated reactivate" target="modules_quiz_response"/>
+	<event type="select contextmenu" actions="deactivated reactivate" target="modules_quiz_question"/>
+	<event type="select contextmenu" actions="deactivated reactivate | exportCsv" target="modules_quiz_quiz"/>
+	
+	<datasource module="quiz" components="response,question,quiz"/>
+
+	<columns>
+		<column ref="label" flex="7" label="Label" properties="type correct"/>
+	</columns>
+</behaviour>

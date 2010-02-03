@@ -1,0 +1,4 @@
+<label tal:attributes="for item/getId">
+	<input tal:condition="item/isSelectedByUser" name="quizParam[question][${question/getId}]" tal:attributes="id item/getId; value item/getId" type="radio" checked="checked"/> 
+	<input tal:condition="not: item/isSelectedByUser" name="quizParam[question][${question/getId}]" tal:attributes="id item/getId; value item/getId" type="radio"/> <span tal:replace="item/getLabel"/>
+</label>

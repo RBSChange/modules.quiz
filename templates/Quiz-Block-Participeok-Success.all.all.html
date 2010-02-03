@@ -1,0 +1,7 @@
+<div tal:content="formThx"/>
+<div>
+	<a tal:attributes="href listHref" change:translate="&modules.quiz.frontoffice.participe.GoBackList;"/>
+</div>
+<div>
+	<a tal:condition="listResult" tal:attributes="href listResult" change:translate="&modules.quiz.frontoffice.participe.SeeResults;"/>
+</div>

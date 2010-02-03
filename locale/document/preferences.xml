@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="document-name">
+    <locale lang="fr">préférences</locale>
+  </entity>
+  <entity id="edition-form-title">
+    <locale lang="fr">Edition des préférences</locale>
+    <locale lang="en">Settings edition</locale>
+    <locale lang="de">Einstellungen editieren</locale>
+  </entity>
+  <entity id="nbitemperpage">
+    <locale lang="fr">nombre d'éléments par page</locale>
+    <locale lang="en">number of items per page</locale>
+    <locale lang="de">Elementezahl pro Seite</locale>
+  </entity>
+  <entity id="nbitemperpage-help">
+    <locale lang="fr">nombre d'éléments par page</locale>
+    <locale lang="en">number of items per page</locale>
+    <locale lang="de">Elementezahl pro Seite</locale>
+  </entity>
+  <entity id="msgforemptyfolder">
+    <locale lang="fr">message pour dossier vide</locale>
+    <locale lang="en">message for empty folder</locale>
+    <locale lang="de">Mitteilung für leerer Ordner</locale>
+  </entity>
+  <entity id="msgforemptyfolder-help">
+    <locale lang="fr">message pour dossier vide</locale>
+    <locale lang="en">message for empty folder</locale>
+    <locale lang="de">Mitteilung für leerer Ordner</locale>
+  </entity>
+  <entity id="multiparticipationalert">
+    <locale lang="fr">multiparticipationalert</locale>
+    <locale lang="en">multiparticipationalert</locale>
+  </entity>
+  <entity id="multiparticipationalert-help">
+    <locale lang="fr">multiparticipationalert-help</locale>
+    <locale lang="en">multiparticipationalert-help</locale>
+  </entity>
+</localization>

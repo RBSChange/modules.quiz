@@ -1,0 +1,57 @@
+.modules-quiz-list,.modules-faq-tplonecolumn{
+	width: 100%;
+	float: left;
+}
+.modules-quiz-list .column-one,.modules-quiz-list-tplonecolumn .column-one{
+	float: left;
+	width: 73.2%;
+	padding: 1.2%;
+	padding-left: 0;
+	margin-top: 12px;
+}
+.modules-quiz-list-tplonecolumn .column-one{
+	width: auto;
+	padding: 0;
+}
+.modules-quiz-list .column-two{
+	float: left;
+	width: 24.4%;
+	padding: 0 1.2%;
+	padding-right: 0;
+	margin-top: 22px;
+}
+.modules-quiz-list{
+	display: table;
+}
+.modules-quiz-list ol li{
+	padding: 4px 0;
+}
+.modules-quiz-detail form p,.modules-quiz-result form p{
+	margin: 0;
+	padding: 12px 0;
+	padding-bottom: 6px;
+}
+.modules-quiz-detail form ol li fieldset label,.modules-quiz-result form ol li fieldset label{
+	clear: both;
+	display: block;
+	padding: 2px 0;
+}
+.modules-quiz-detail .info-result{
+	text-align: center;
+	font-weight: bold;
+	font-size: 3.0em;
+}
+.correct{
+	color: green;
+}
+.incorrect{
+	color: red;
+}
+.top-freecontent,.bottom-freecontent{
+	margin: 12px 0;
+}
+.modules-quiz-result p.explaination{
+	margin: 0;
+	padding: 0;
+	padding-left: 24px;
+}

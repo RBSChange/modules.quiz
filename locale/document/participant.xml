@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="document-name">
+    <locale lang="fr">utilisateur</locale>
+  </entity>
+  <entity id="edition-form-title">
+    <locale lang="fr">Edition d'un utilisateur</locale>
+    <locale lang="en">User edition</locale>
+    <locale lang="de">Benutzer editieren</locale>
+  </entity>
+  <entity id="author">
+    <locale lang="fr">auteur</locale>
+    <locale lang="en">author</locale>
+    <locale lang="de">Autor</locale>
+  </entity>
+  <entity id="author-help">
+    <locale lang="fr">auteur</locale>
+    <locale lang="en">author</locale>
+    <locale lang="de">Autor</locale>
+  </entity>
+  <entity id="creationdate">
+    <locale lang="fr">date de création</locale>
+    <locale lang="en">creation date</locale>
+    <locale lang="de">Erstellungsdatum</locale>
+  </entity>
+  <entity id="creationdate-help">
+    <locale lang="fr">date de création</locale>
+    <locale lang="en">creation date</locale>
+    <locale lang="de">Erstellungsdatum</locale>
+  </entity>
+  <entity id="modificationdate">
+    <locale lang="fr">date de modification</locale>
+    <locale lang="en">modification date</locale>
+    <locale lang="de">Quiz</locale>
+  </entity>
+  <entity id="modificationdate-help">
+    <locale lang="fr">date de modification</locale>
+    <locale lang="en">modification date</locale>
+    <locale lang="de">Änderungsdatum</locale>
+  </entity>
+  <entity id="publicationstatus">
+    <locale lang="fr">statut de publication</locale>
+    <locale lang="en">publication status</locale>
+    <locale lang="de">Publikationsstatus</locale>
+  </entity>
+  <entity id="publicationstatus-help">
+    <locale lang="fr">statut de publication</locale>
+    <locale lang="en">publication status</locale>
+    <locale lang="de">Publikationsstatus</locale>
+  </entity>
+  <entity id="startpublicationdate">
+    <locale lang="fr">date de début de publication</locale>
+    <locale lang="en">start publication date</locale>
+    <locale lang="de">Publikationsanfangsdatum</locale>
+  </entity>
+  <entity id="startpublicationdate-help">
+    <locale lang="fr">date de début de publication</locale>
+    <locale lang="en">start publication date</locale>
+    <locale lang="de">Publikationsanfangsdatum</locale>
+  </entity>
+  <entity id="endpublicationdate">
+    <locale lang="fr">date de fin de publication</locale>
+    <locale lang="en">end publication date</locale>
+    <locale lang="de">Publikationsendedatum</locale>
+  </entity>
+  <entity id="endpublicationdate-help">
+    <locale lang="fr">date de fin de publication</locale>
+    <locale lang="en">end publication date</locale>
+    <locale lang="de">Publikationsendedatum</locale>
+  </entity>
+  <entity id="label">
+    <locale lang="fr">libellé</locale>
+    <locale lang="en">label</locale>
+    <locale lang="de">Name</locale>
+  </entity>
+  <entity id="label-help">
+    <locale lang="fr">libellé</locale>
+    <locale lang="en">label</locale>
+    <locale lang="de">Name</locale>
+  </entity>
+  <entity id="quiz">
+    <locale lang="fr">quiz</locale>
+    <locale lang="en">quiz</locale>
+    <locale lang="de">Quiz</locale>
+  </entity>
+  <entity id="quiz-help">
+    <locale lang="fr">quiz</locale>
+    <locale lang="en">quiz</locale>
+    <locale lang="de">Quiz</locale>
+  </entity>
+  <entity id="allright">
+    <locale lang="fr">allright</locale>
+    <locale lang="en">allright</locale>
+  </entity>
+  <entity id="allright-help">
+    <locale lang="fr">allright-help</locale>
+    <locale lang="en">allright-help</locale>
+  </entity>
+  <entity id="title">
+    <locale lang="fr">title</locale>
+    <locale lang="en">title</locale>
+  </entity>
+  <entity id="title-help">
+    <locale lang="fr">title-help</locale>
+    <locale lang="en">title-help</locale>
+  </entity>
+  <entity id="lastname">
+    <locale lang="fr">nom</locale>
+    <locale lang="en">lastname</locale>
+    <locale lang="de">Nachname</locale>
+  </entity>
+  <entity id="lastname-help">
+    <locale lang="fr">nom de famille</locale>
+    <locale lang="en">lastname</locale>
+    <locale lang="de">Nachname</locale>
+  </entity>
+  <entity id="firstname">
+    <locale lang="fr">prénom</locale>
+    <locale lang="en">firstname</locale>
+    <locale lang="de">Vorname</locale>
+  </entity>
+  <entity id="firstname-help">
+    <locale lang="fr">prénom</locale>
+    <locale lang="en">firstname</locale>
+    <locale lang="de">Nachname</locale>
+  </entity>
+  <entity id="email">
+    <locale lang="fr">e-mail</locale>
+    <locale lang="en">email</locale>
+    <locale lang="de">Email</locale>
+  </entity>
+  <entity id="email-help">
+    <locale lang="fr">e-mail</locale>
+    <locale lang="en">email</locale>
+    <locale lang="de">Email</locale>
+  </entity>
+  <entity id="country">
+    <locale lang="fr">pays</locale>
+    <locale lang="en">country</locale>
+    <locale lang="de">Land</locale>
+  </entity>
+  <entity id="country-help">
+    <locale lang="fr">pays</locale>
+    <locale lang="en">country</locale>
+    <locale lang="de">Land</locale>
+  </entity>
+</localization>

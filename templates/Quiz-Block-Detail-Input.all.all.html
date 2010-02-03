@@ -1,0 +1,16 @@
+<h3 tal:content="item/getLabel" />
+<div class="top-freecontent" tal:content="item/getFormheaderAsHtml"/>
+<ul tal:condition="errors" class="errors">
+	<li tal:repeat="error errors" tal:content="error" />
+</ul>
+<form method="POST" action="">
+	<ol>
+		<li tal:repeat="question questions">
+			<span change:include="module 'quiz'; template 'Quiz-Inc-Question-Input'; type 'html'; item question; quiz item" />
+		</li>
+		<li>
+			<input class="button" name="quizParam[submit]" type="submit" i18n:attributes="value &modules.quiz.frontoffice.form.validate;" />
+		</li>
+	</ol>
+</form>
+<div class="bottom-freecontent" tal:content="item/getFormfooterAsHtml" />

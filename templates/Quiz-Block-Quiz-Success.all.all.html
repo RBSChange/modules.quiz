@@ -1,0 +1,5 @@
+<h3 class="title">
+	<a change:link="document item" tal:content="item/getLabel"/><br />
+	<small tal:condition="item/getEndpublicationdate"><span i18n:translate="&modules.quiz.frontoffice.list.EndDateLabel;" tal:omit-tag=""/> <span change:date="value item/getEndpublicationdate" /></small>
+</h3>
+<p tal:content="item/getDescription" />

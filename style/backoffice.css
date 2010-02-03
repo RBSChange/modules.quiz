@@ -1,0 +1,18 @@
+treechildren::-moz-tree-image(modules_quiz_preferences){
+	list-style-image: url(/icons/small/genius.png) ;
+}
+treechildren::-moz-tree-image(modules_quiz_quiz){
+	list-style-image: url(/icons/small/lightbulb_on.png) ;
+}
+treechildren::-moz-tree-image(modules_quiz_question){
+	list-style-image: url(/icons/small/help.png) ;
+}
+treechildren::-moz-tree-image(modules_quiz_response){
+	list-style-image: url(/icons/small/lightbulb.png) ;
+}
+treechildren::-moz-tree-image(modules_quiz_response correct){
+	list-style-image: url(/icons/small/lightbulb_on.png) ;
+}
+treechildren::-moz-tree-image(modules_quiz_participant){
+	list-style-image: url(/icons/small/lightbulb_on.png) ;
+}

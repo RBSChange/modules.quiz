@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="create_">
+    <locale lang="fr">créer</locale>
+    <locale lang="en">create</locale>
+  </entity>
+  <entity id="createQuestion_">
+    <locale lang="fr">créer</locale>
+    <locale lang="en">create</locale>
+  </entity>
+  <entity id="createResponse_">
+    <locale lang="fr">créer</locale>
+    <locale lang="en">create</locale>
+  </entity>
+  <entity id="Create-Preferences">
+    <locale lang="fr">Create preferences</locale>
+    <locale lang="en">Create preferences</locale>
+  </entity>
+  <entity id="Create-Quiz">
+    <locale lang="fr">Créer un quizz</locale>
+    <locale lang="en">Create quiz</locale>
+    <locale lang="de">Neues Quiz erstellen</locale>
+  </entity>
+  <entity id="Create-Question">
+    <locale lang="fr">Créer une question</locale>
+    <locale lang="en">Create question</locale>
+    <locale lang="de">Neue Frage erstellen</locale>
+  </entity>
+  <entity id="Create-Response">
+    <locale lang="fr">Créer une réponse</locale>
+    <locale lang="en">Create response</locale>
+    <locale lang="de">Neue Antwort erstellen</locale>
+  </entity>
+  <entity id="Create-Participant">
+    <locale lang="fr">Create participant</locale>
+    <locale lang="en">Create participant</locale>
+  </entity>
+</localization>

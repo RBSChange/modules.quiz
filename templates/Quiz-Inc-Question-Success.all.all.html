@@ -1,0 +1,10 @@
+<fieldset>
+	<div tal:condition="item/getVisual" change:media="document item/getVisual; format 'modules.quiz.frontoffice/thumbnail'; class 'float-left';"/>	
+	<p tal:content="item/getLabel"/>
+	<span tal:repeat="response item/getPublishedResponses" tal:omit-tag="">
+		<span tal:condition="response/isVisibleInResult" tal:omit-tag="">	
+			<span tal:condition="item/getUsebutton" change:include="module 'quiz'; template 'Quiz-Inc-Response-Radio-Success'; type 'html'; item response; question item" />
+			<span tal:condition="not: item/getUsebutton" change:include="module 'quiz'; template 'Quiz-Inc-Response-Checkbox-Success'; type 'html'; item response; question item" />
+		</span>
+	</span>
+</fieldset>

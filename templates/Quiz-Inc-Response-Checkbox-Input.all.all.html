@@ -1,0 +1,4 @@
+<label tal:attributes="for item/getId">
+	<input tal:condition="item/isSelectedByUser" name="quizParam[question][${question/getId}][${item/getId}]" tal:attributes="id item/getId" type="checkbox" checked="checked"/>
+	<input tal:condition="not: item/isSelectedByUser" name="quizParam[question][${question/getId}][${item/getId}]" tal:attributes="id item/getId" type="checkbox" /> <span tal:replace="item/getLabel"/>
+</label>

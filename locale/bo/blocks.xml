@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="quizContextualList">
+    <locale lang="fr">liste de quiz</locale>
+    <locale lang="en">quiz list</locale>
+    <locale lang="de">Quizliste</locale>
+  </entity>
+  <entity id="quizDetail">
+    <locale lang="fr">détail d'un quiz</locale>
+    <locale lang="en">quiz detail</locale>
+    <locale lang="de">Quizdetail</locale>
+  </entity>
+</localization>

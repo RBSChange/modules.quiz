@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="quiz-list">
+    <locale lang="fr">page de liste</locale>
+    <locale lang="en">list page</locale>
+    <locale lang="de">Listseite</locale>
+  </entity>
+  <entity id="quiz-detail">
+    <locale lang="fr">page de détail</locale>
+    <locale lang="en">detail page</locale>
+    <locale lang="de">Detailseite</locale>
+  </entity>
+  <entity id="participe-form">
+    <locale lang="fr">formulaire de participation</locale>
+    <locale lang="en">participe form</locale>
+  </entity>
+</localization>

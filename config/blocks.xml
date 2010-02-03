@@ -1,0 +1,6 @@
+<?xml version="1.0"?>
+<blocks>
+	<block type="modules_quiz_contextuallist" display="" icon="" label="&amp;modules.quiz.bo.blocks.quizContextualList;"/>
+	
+	<block type="modules_quiz_detail" display="" icon="" label="&amp;modules.quiz.bo.blocks.quizDetail;" />
+</blocks>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document xmlns="http://www.rbs.fr/schema/change-document/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.rbs.fr/schema/change-document/1.0 http://www.rbschange.fr/static/schema/change-document/1.0.xsd" 
+    model-version="1.0" indexable="true" icon="lightbulb_on" has-url="false">
+	<properties>
+		<add name="label" type="String" min-occurs="1" max-occurs="1" localized="true">
+			<constraints>maxSize:80</constraints>
+		</add>
+		<add name="description" type="XHTMLFragment" min-occurs="1" max-occurs="1" localized="true"/>
+		<add name="usebutton" type="Boolean" min-occurs="1" max-occurs="1" default-value="false" preserve-old-value="true"/>
+		<add name="processtype" type="Integer" min-occurs="1" max-occurs="1" default-value="0" from-list="modules_quiz/processtype"/>
+		<add name="formheader" type="XHTMLFragment" min-occurs="0" max-occurs="1" localized="true"/>
+		<add name="participationheader" type="XHTMLFragment" min-occurs="0" max-occurs="1" localized="true"/>
+		<add name="resultheader" type="XHTMLFragment" min-occurs="0" max-occurs="1" localized="true"/>
+		<add name="formfooter" type="XHTMLFragment" min-occurs="0" max-occurs="1" localized="true"/>
+		<add name="participationfooter" type="XHTMLFragment" min-occurs="0" max-occurs="1" localized="true"/>
+		<add name="resultfooter" type="XHTMLFragment" min-occurs="0" max-occurs="1" localized="true"/>
+		<add name="notificationsubject" type="String" min-occurs="0" max-occurs="1" localized="true"/>
+		<add name="notificationheader" type="XHTMLFragment" min-occurs="0" max-occurs="1" localized="true"/>
+		<add name="notificationbody" type="XHTMLFragment" min-occurs="0" max-occurs="1" localized="true"/>
+		<add name="notificationfooter" type="XHTMLFragment" min-occurs="0" max-occurs="1" localized="true"/>
+		<add name="publicationstatus" localized="true"/>
+		
+		<add name="viewgoodresponse" type="Boolean" default-value="true"/>
+		<add name="allowmultiple" type="Boolean" default-value="true"/>
+	</properties>
+	
+	<children>
+		<child name="question" type="modules_quiz/question" />
+	</children>
+	
+	<form>
+		<property name="description" compact="true"/>
+		<property name="startpublicationdate" display="edit"/>
+  		<property name="endpublicationdate" enddate="true" display="edit"/>
+	</form>
+	
+</document>

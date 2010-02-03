@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<actions extends="generic">
+  <action name="createPreferences" label="&amp;modules.quiz.bo.actions.Create-Preferences;">
+    <parameter name="listWidget"/>
+    <body><![CDATA[this.createDocument(listWidget, this.name, 'preferences', 'moduleForm');]]></body>
+  </action>
+  <action name="createQuiz" label="&amp;modules.quiz.bo.actions.Create-Quiz;">
+    <parameter name="listWidget"/>
+    <body><![CDATA[this.createDocument(listWidget, this.name, 'quiz', 'moduleForm');]]></body>
+  </action>
+  <action name="createQuestion" label="&amp;modules.quiz.bo.actions.Create-Question;">
+    <parameter name="listWidget"/>
+    <body><![CDATA[this.createDocument(listWidget, this.name, 'question', 'moduleForm');]]></body>
+  </action>
+  <action name="createResponse" label="&amp;modules.quiz.bo.actions.Create-Response;">
+    <parameter name="listWidget"/>
+    <body><![CDATA[this.createDocument(listWidget, this.name, 'response', 'moduleForm');]]></body>
+  </action>
+</actions>

@@ -1,0 +1,14 @@
+<h3 tal:content="item/getLabel" />
+<div class="top-freecontent" tal:content="item/getFormheaderAsHtml"/>
+<form method="POST" >
+	<ol>
+		<li tal:repeat="question questions">
+			<span change:include="module 'quiz'; template 'Quiz-Inc-Question-Success'; type 'html'; item question; quiz item" />
+		</li>
+	</ol>
+</form>
+
+<div tal:condition="php: nbGoodResponse gt 1" class="info-result" change:translate="&modules.quiz.frontoffice.result.infoResults;; nbResponse nbGoodResponse; nbQuestion nbQuestion"/>
+<div tal:condition="php: nbGoodResponse lt 2" class="info-result" change:translate="&modules.quiz.frontoffice.result.infoResult;; nbResponse nbGoodResponse; nbQuestion nbQuestion"/>
+
+<div class="bottom-freecontent" tal:content="item/getFormfooterAsHtml" />

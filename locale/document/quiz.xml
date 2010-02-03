@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<localization>
+  <entity id="startpublicationdate">
+    <locale lang="fr">début du quiz</locale>
+    <locale lang="en"/>
+  </entity>
+  <entity id="startpublicationdate-help">
+    <locale lang="fr">indiqué la date ici à laquelle le quiz apparaîtera sur le site</locale>
+    <locale lang="en"/>
+  </entity>
+  <entity id="endpublicationdate">
+    <locale lang="fr">fin du quiz</locale>
+    <locale lang="en"/>
+  </entity>
+  <entity id="endpublicationdate-help">
+    <locale lang="fr">indiqué la date ici à laquelle le quiz n'apparaîtera plus sur le site</locale>
+    <locale lang="en"/>
+  </entity>
+  <entity id="label">
+    <locale lang="fr">libellé</locale>
+    <locale lang="en">label</locale>
+    <locale lang="de">Bild</locale>
+  </entity>
+  <entity id="label-help">
+    <locale lang="fr">libellé</locale>
+    <locale lang="en">label</locale>
+    <locale lang="de">Bild</locale>
+  </entity>
+  <entity id="description">
+    <locale lang="fr">description</locale>
+    <locale lang="en">description</locale>
+    <locale lang="de">Beschreibung</locale>
+  </entity>
+  <entity id="description-help">
+    <locale lang="fr">description</locale>
+    <locale lang="en">description</locale>
+    <locale lang="de">Beschreibung</locale>
+  </entity>
+  <entity id="usebutton">
+    <locale lang="fr">bouton radio utilisé</locale>
+    <locale lang="en">use radio buttons</locale>
+    <locale lang="de">radiobuttons benutzen</locale>
+  </entity>
+  <entity id="usebutton-help">
+    <locale lang="fr">utiliser des boutons radio</locale>
+    <locale lang="en">use radio buttons</locale>
+    <locale lang="de">radiobuttons benutzen</locale>
+  </entity>
+  <entity id="processtype">
+    <locale lang="fr">type de processus</locale>
+    <locale lang="en">process type</locale>
+    <locale lang="de">Prozessart</locale>
+  </entity>
+  <entity id="processtype-help">
+    <locale lang="fr">type de processus</locale>
+    <locale lang="en">process type</locale>
+    <locale lang="de">Prozessart</locale>
+  </entity>
+  <entity id="viewgoodresponse">
+    <locale lang="fr">voir les bonnes réponses</locale>
+  </entity>
+  <entity id="viewgoodresponse-help">
+    <locale lang="fr">Voir les bonnes réponses apres validation du quiz</locale>
+  </entity>
+  <entity id="allowmultiple">
+    <locale lang="fr">répondre plusieurs fois au quiz</locale>
+  </entity>
+  <entity id="allowmultiple-help">
+    <locale lang="fr">L'internaute peux répondre au quiz autant de fois qu'il le désir</locale>
+  </entity>
+  <entity id="formheader">
+    <locale lang="fr">en-tête du formulaire</locale>
+    <locale lang="en">form header</locale>
+    <locale lang="de">Kopf des Formulars</locale>
+  </entity>
+  <entity id="formheader-help">
+    <locale lang="fr">en-tête du formulaire</locale>
+    <locale lang="en">form header</locale>
+    <locale lang="de">Kopf des Formulars</locale>
+  </entity>
+  <entity id="participationheader">
+    <locale lang="fr">en-tête de la participation</locale>
+    <locale lang="en">participationheader</locale>
+  </entity>
+  <entity id="participationheader-help">
+    <locale lang="fr">texte affiché sur le site au-dessus du formulaire de la participation</locale>
+    <locale lang="en">participationheader-help</locale>
+  </entity>
+  <entity id="resultheader">
+    <locale lang="fr">en-tête des résultats</locale>
+    <locale lang="en">result header</locale>
+    <locale lang="de">Kopf der Ergebnisseseite</locale>
+  </entity>
+  <entity id="resultheader-help">
+    <locale lang="fr">en-tête des résultats</locale>
+    <locale lang="en">result header</locale>
+    <locale lang="de">Kopf der Ergebnisseseite</locale>
+  </entity>
+  <entity id="formfooter">
+    <locale lang="fr">texte en-dessous du formulaire</locale>
+    <locale lang="en">form footer</locale>
+    <locale lang="de">Fußtext des Formulars</locale>
+  </entity>
+  <entity id="formfooter-help">
+    <locale lang="fr">texte en-dessous du formulaire</locale>
+    <locale lang="en">form footer</locale>
+    <locale lang="de">Fußtext des Formulars</locale>
+  </entity>
+  <entity id="participationfooter">
+    <locale lang="fr">texte sous participation</locale>
+  </entity>
+  <entity id="participationfooter-help">
+    <locale lang="fr">texte affiché sur le site en-dessous du formulaire de la participation</locale>
+  </entity>
+  <entity id="resultfooter">
+    <locale lang="fr">texte en-dessous des résultats</locale>
+    <locale lang="en">result footer</locale>
+    <locale lang="de">Fußtext des Formulars</locale>
+  </entity>
+  <entity id="resultfooter-help">
+    <locale lang="fr">texte en-dessous des résultats</locale>
+    <locale lang="en">result footer</locale>
+    <locale lang="de">Fußtext des Formulars</locale>
+  </entity>
+  <entity id="notificationsubject">
+    <locale lang="fr">sujet de la notification</locale>
+  </entity>
+  <entity id="notificationsubject-help">
+    <locale lang="fr">sujet de la notification</locale>
+  </entity>
+  <entity id="notificationheader">
+    <locale lang="fr">entête de la notification</locale>
+    <locale lang="en">notificationheader</locale>
+  </entity>
+  <entity id="notificationheader-help">
+    <locale lang="fr">entête de la notification</locale>
+  </entity>
+  <entity id="notificationbody">
+    <locale lang="fr">corps de la notification</locale>
+    <locale lang="en">notificationbody</locale>
+  </entity>
+  <entity id="notificationbody-help">
+    <locale lang="fr">corps de la notification</locale>
+  </entity>
+  <entity id="notificationfooter">
+    <locale lang="fr">pied de page de la notification</locale>
+  </entity>
+  <entity id="notificationfooter-help">
+    <locale lang="fr">pied de page de la notification</locale>
+  </entity>
+  <entity id="edition-form-title">
+    <locale lang="fr">Edition d'un quiz</locale>
+    <locale lang="en">Quiz edition</locale>
+    <locale lang="de">Quiz editieren</locale>
+  </entity>
+  <entity id="Generalities">
+    <locale lang="fr">Generalités</locale>
+    <locale lang="en">Generalities</locale>
+  </entity>
+  <entity id="FormLayout">
+    <locale lang="fr">Quiz</locale>
+  </entity>
+  <entity id="ParticipationLayout">
+    <locale lang="fr">Participation</locale>
+  </entity>
+  <entity id="ResultLayout">
+    <locale lang="fr">Resultats</locale>
+  </entity>
+  <entity id="Notification">
+    <locale lang="fr">Notification</locale>
+  </entity>
+</localization>

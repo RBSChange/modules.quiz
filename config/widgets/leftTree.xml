@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<behaviour>
+  <event type="drop" target="modules_generic_rootfolder" flavour="listitem/component" source="modules_website_topic" actions="move"/>
+  <event type="drop" target="modules_website_topic" flavour="listitem/component" source="modules_quiz_quiz modules_quiz_question modules_quiz_response" actions="move"/>
+  
+  <event type="select contextmenu" target="modules_website_topic" actions="create_ editPermissions -rename -delete remove">
+    <actiongroup name="create_" icon="add" actions="createQuiz"/>
+  </event>
+  <event type="select contextmenu" target="modules_quiz_quiz" actions="createQuestion_ delete | openOrderChildren exportCsv">
+    <actiongroup name="createQuestion_" icon="add" actions="createQuestion"/>
+  </event>
+  <event type="select contextmenu" target="modules_quiz_question" actions="createResponse_ delete | openOrderChildren">
+    <actiongroup name="createResponse_" icon="add" actions="createResponse"/>
+  </event>
+  <event type="select contextmenu" target="modules_generic_rootfolder" actions="-openOrderChildren addTopic | editPermissions -createFolder"/>
+  <datasource module="quiz" components="modules_website/topic,modules_quiz/quiz,modules_quiz/question"/>
+  <columns>
+    <column ref="label" flex="5" label="Label" primary="true" properties="type"/>
+  </columns>  
+</behaviour>

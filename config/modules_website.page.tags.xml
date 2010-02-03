@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<tags extends="generic">
+  <tag label="&amp;modules.quiz.bo.tags.quiz-list;" icon="link">functional_quiz_quiz-list</tag>
+  <tag label="&amp;modules.quiz.bo.tags.quiz-detail;" icon="link">functional_quiz_quiz-detail</tag>
+</tags>

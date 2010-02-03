@@ -1,0 +1,6 @@
+wblocktoolbar[type="modules_quiz_topic"]{
+	-moz-binding: url(binding:modules.abstractdirectory.wListToolbar#wListToolbar);
+}
+wblocktoolbar[type="modules_quiz_contextuallist"]{
+	-moz-binding: url(binding:modules.abstractdirectory.wListToolbar#wListToolbar);
+}

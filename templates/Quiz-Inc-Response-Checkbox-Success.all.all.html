@@ -1,0 +1,11 @@
+<label tal:attributes="for item/getId">
+	<input tal:condition="item/isSelectedByUser" name="quizParam[question][${question/getId}][${item/getId}]" tal:attributes="id item/getId" type="checkbox" checked="checked"  disabled="true"/>
+	<input tal:condition="not: item/isSelectedByUser" name="quizParam[question][${question/getId}][${item/getId}]" tal:attributes="id item/getId" type="checkbox"  disabled="true"/> <span tal:replace="item/getLabel"/>
+	<span tal:condition="item/getIscorrect" class="correct" ><strong tal:content="item/getLabel"/></span>
+	<span tal:condition="not: item/getIscorrect" class="incorrect"><i tal:content="item/getLabel"/></span>
+</label>
+<div tal:condition="item/isSelectedByUser" tal:omit-tag="">
+	<span tal:condition="item/getComment">
+		<p class="explaination" tal:content="item/getComment" />
+	</span>
+</div>
