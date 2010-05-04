@@ -14,7 +14,7 @@ class quiz_BlockDetailParticipeView extends block_BlockView
     	
     	f_event_EventManager::register($this);
 
-  		$form = form_FormService::getInstance()->getFormByFormId('modules_quiz/participe');
+  		$form = form_FormService::getInstance()->getByFormId('modules_quiz/participe');
 
 		$subBlock = $this->getNewBlockInstance()
         	->setPackageName("modules_form")

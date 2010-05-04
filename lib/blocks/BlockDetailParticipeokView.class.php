@@ -12,7 +12,7 @@ class quiz_BlockDetailParticipeokView extends block_BlockView
     {    	
     	$this->setTemplateName('Quiz-Block-Participeok-Success');
     	
-  		$form = form_FormService::getInstance()->getFormByFormId('modules_quiz/participe');
+  		$form = form_FormService::getInstance()->getByFormId('modules_quiz/participe');
    	 	$this->setAttribute('formThx', $form->getConfirmMessageAsHtml());
    	 	
    	 	$quiz = $this->getDocumentParameter();
