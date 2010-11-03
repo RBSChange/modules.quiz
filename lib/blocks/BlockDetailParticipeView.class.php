@@ -76,7 +76,7 @@ class quiz_BlockDetailParticipeView extends block_BlockView
 		$recipients->setTo($datas['email']);
 		$notifService->send($notification, $recipients, array(), 'quiz');
 		
-		$url = LinkHelper::getUrl($quiz, RequestContext::getInstance()->getLang(), array('formParam' => array('ok' => 1, 'data' => $datas['data'])));
+		$url = LinkHelper::getDocumentUrl($quiz, RequestContext::getInstance()->getLang(), array('formParam' => array('ok' => 1, 'data' => $datas['data'])));
 	    HttpController::getInstance()->redirectToUrl(str_replace('&amp;', '&', $url));
 	}
 
