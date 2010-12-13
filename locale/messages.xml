@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<localization>
-  <entity id="error.AllQuestionMustBeHandled">
-    <locale lang="fr">Vous devez répondre à toutes les questions.</locale>
-    <locale lang="en">Please answer all questions.</locale>
-    <locale lang="de">Bitte beantworten Sie alle Fragen.</locale>
-  </entity>
-</localization>

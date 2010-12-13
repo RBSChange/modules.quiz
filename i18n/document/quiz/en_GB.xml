@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.quiz.document.quiz" lcid="en_GB">
+  <key id="startpublicationdate"></key>
+  <key id="startpublicationdate-help"></key>
+  <key id="endpublicationdate"></key>
+  <key id="endpublicationdate-help"></key>
+  <key id="label">label</key>
+  <key id="label-help">label</key>
+  <key id="description">description</key>
+  <key id="description-help">description</key>
+  <key id="usebutton">use radio buttons</key>
+  <key id="usebutton-help">use radio buttons</key>
+  <key id="processtype">process type</key>
+  <key id="processtype-help">process type</key>
+  <key id="formheader">form header</key>
+  <key id="formheader-help">form header</key>
+  <key id="participationheader">participationheader</key>
+  <key id="participationheader-help">participationheader-help</key>
+  <key id="resultheader">result header</key>
+  <key id="resultheader-help">result header</key>
+  <key id="formfooter">form footer</key>
+  <key id="formfooter-help">form footer</key>
+  <key id="resultfooter">result footer</key>
+  <key id="resultfooter-help">result footer</key>
+  <key id="notificationheader">notificationheader</key>
+  <key id="notificationbody">notificationbody</key>
+  <key id="edition-form-title">Quiz edition</key>
+  <key id="generalities">Generalities</key>
+</i18n>

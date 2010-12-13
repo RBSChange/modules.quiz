@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.quiz.document.preferences" lcid="de_DE">
+  <key id="edition-form-title">Einstellungen editieren</key>
+  <key id="nbitemperpage">Elementezahl pro Seite</key>
+  <key id="nbitemperpage-help">Elementezahl pro Seite</key>
+  <key id="msgforemptyfolder">Mitteilung für leerer Ordner</key>
+  <key id="msgforemptyfolder-help">Mitteilung für leerer Ordner</key>
+</i18n>

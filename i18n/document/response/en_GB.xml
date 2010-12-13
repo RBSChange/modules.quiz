@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.quiz.document.response" lcid="en_GB">
+  <key id="edition-form-title">Answer</key>
+  <key id="label">label</key>
+  <key id="label-help">label</key>
+  <key id="comment">comment</key>
+  <key id="comment-help">comment about the answer</key>
+  <key id="iscorrect">right answer</key>
+  <key id="iscorrect-help">choose if this answer is the right one</key>
+</i18n>

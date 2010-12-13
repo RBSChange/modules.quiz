@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.quiz.frontoffice.participe" lcid="fr_FR">
+  <key id="impossibletoparticipeagain">impossible de participer à ce quiz avec cette adresse email, celle-ci est déjà utilisée par un participant.</key>
+  <key id="gobacklist">retour à la liste des quiz</key>
+  <key id="seeresults">voir les résultats</key>
+</i18n>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.quiz.bo.actions" lcid="fr_FR">
+  <key id="create_">créer</key>
+  <key id="createquestion_">créer</key>
+  <key id="createresponse_">créer</key>
+  <key id="create-preferences">Create preferences</key>
+  <key id="create-quiz">Créer un quizz</key>
+  <key id="create-question">Créer une question</key>
+  <key id="create-response">Créer une réponse</key>
+  <key id="create-participant">Create participant</key>
+</i18n>

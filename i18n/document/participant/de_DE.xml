@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.quiz.document.participant" lcid="de_DE">
+  <key id="edition-form-title">Benutzer editieren</key>
+  <key id="author">Autor</key>
+  <key id="author-help">Autor</key>
+  <key id="creationdate">Erstellungsdatum</key>
+  <key id="creationdate-help">Erstellungsdatum</key>
+  <key id="modificationdate">Quiz</key>
+  <key id="modificationdate-help">Änderungsdatum</key>
+  <key id="publicationstatus">Publikationsstatus</key>
+  <key id="publicationstatus-help">Publikationsstatus</key>
+  <key id="startpublicationdate">Publikationsanfangsdatum</key>
+  <key id="startpublicationdate-help">Publikationsanfangsdatum</key>
+  <key id="endpublicationdate">Publikationsendedatum</key>
+  <key id="endpublicationdate-help">Publikationsendedatum</key>
+  <key id="label">Name</key>
+  <key id="label-help">Name</key>
+  <key id="quiz">Quiz</key>
+  <key id="quiz-help">Quiz</key>
+  <key id="lastname">Nachname</key>
+  <key id="lastname-help">Nachname</key>
+  <key id="firstname">Vorname</key>
+  <key id="firstname-help">Nachname</key>
+  <key id="email">Email</key>
+  <key id="email-help">Email</key>
+  <key id="country">Land</key>
+  <key id="country-help">Land</key>
+</i18n>

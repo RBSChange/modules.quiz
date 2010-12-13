@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.quiz.bo.actions" lcid="de_DE">
+  <key id="create-quiz">Neues Quiz erstellen</key>
+  <key id="create-question">Neue Frage erstellen</key>
+  <key id="create-response">Neue Antwort erstellen</key>
+</i18n>

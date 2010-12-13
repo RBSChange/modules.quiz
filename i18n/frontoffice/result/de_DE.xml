@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.quiz.frontoffice.result" lcid="de_DE">
+  <key id="inforesults">Sie haben {nbResponse}/{nbQuestion} richtige Antworten.</key>
+  <key id="inforesult">You got {nbResponse}/{nbQuestion} richtige Antwort.</key>
+</i18n>

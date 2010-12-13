@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.quiz.document.quiz" lcid="de_DE">
+  <key id="label">Bild</key>
+  <key id="label-help">Bild</key>
+  <key id="description">Beschreibung</key>
+  <key id="description-help">Beschreibung</key>
+  <key id="usebutton">radiobuttons benutzen</key>
+  <key id="usebutton-help">radiobuttons benutzen</key>
+  <key id="processtype">Prozessart</key>
+  <key id="processtype-help">Prozessart</key>
+  <key id="formheader">Kopf des Formulars</key>
+  <key id="formheader-help">Kopf des Formulars</key>
+  <key id="resultheader">Kopf der Ergebnisseseite</key>
+  <key id="resultheader-help">Kopf der Ergebnisseseite</key>
+  <key id="formfooter">Fußtext des Formulars</key>
+  <key id="formfooter-help">Fußtext des Formulars</key>
+  <key id="resultfooter">Fußtext des Formulars</key>
+  <key id="resultfooter-help">Fußtext des Formulars</key>
+  <key id="edition-form-title">Quiz editieren</key>
+</i18n>

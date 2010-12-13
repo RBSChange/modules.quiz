@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.quiz.bo.general.export" lcid="en_GB">
+  <key id="quiz"></key>
+  <key id="correct"></key>
+  <key id="title"></key>
+  <key id="lastname"></key>
+  <key id="firstname"></key>
+  <key id="email"></key>
+  <key id="address"></key>
+  <key id="city"></key>
+  <key id="postalcode"></key>
+  <key id="country"></key>
+  <key id="ok"></key>
+  <key id="nok"></key>
+</i18n>

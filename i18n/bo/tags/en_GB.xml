@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.quiz.bo.tags" lcid="en_GB">
+  <key id="quiz-list">list page</key>
+  <key id="quiz-detail">detail page</key>
+  <key id="participe-form">participe form</key>
+</i18n>

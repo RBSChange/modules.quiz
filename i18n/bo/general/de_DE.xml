@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.quiz.bo.general" lcid="de_DE">
+  <key id="module-name">Quiz</key>
+  <key id="tree-root-name">Quiz</key>
+  <key id="system-folder-name">Quiz</key>
+</i18n>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.quiz.document.preferences" lcid="fr_FR">
+  <key id="document-name">préférences</key>
+  <key id="edition-form-title">Edition des préférences</key>
+  <key id="nbitemperpage">nombre d'éléments par page</key>
+  <key id="nbitemperpage-help">nombre d'éléments par page</key>
+  <key id="msgforemptyfolder">message pour dossier vide</key>
+  <key id="msgforemptyfolder-help">message pour dossier vide</key>
+  <key id="multiparticipationalert">multiparticipationalert</key>
+  <key id="multiparticipationalert-help">multiparticipationalert-help</key>
+</i18n>

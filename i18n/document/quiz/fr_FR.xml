@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<i18n baseKey="m.quiz.document.quiz" lcid="fr_FR">
+  <key id="startpublicationdate">début du quiz</key>
+  <key id="startpublicationdate-help">indiqué la date ici à laquelle le quiz apparaîtera sur le site</key>
+  <key id="endpublicationdate">fin du quiz</key>
+  <key id="endpublicationdate-help">indiqué la date ici à laquelle le quiz n'apparaîtera plus sur le site</key>
+  <key id="label">libellé</key>
+  <key id="label-help">libellé</key>
+  <key id="description">description</key>
+  <key id="description-help">description</key>
+  <key id="usebutton">bouton radio utilisé</key>
+  <key id="usebutton-help">utiliser des boutons radio</key>
+  <key id="processtype">type de processus</key>
+  <key id="processtype-help">type de processus</key>
+  <key id="viewgoodresponse">voir les bonnes réponses</key>
+  <key id="viewgoodresponse-help">Voir les bonnes réponses apres validation du quiz</key>
+  <key id="allowmultiple">répondre plusieurs fois au quiz</key>
+  <key id="allowmultiple-help">L'internaute peux répondre au quiz autant de fois qu'il le désir</key>
+  <key id="formheader">en-tête du formulaire</key>
+  <key id="formheader-help">en-tête du formulaire</key>
+  <key id="participationheader">en-tête de la participation</key>
+  <key id="participationheader-help">texte affiché sur le site au-dessus du formulaire de la participation</key>
+  <key id="resultheader">en-tête des résultats</key>
+  <key id="resultheader-help">en-tête des résultats</key>
+  <key id="formfooter">texte en-dessous du formulaire</key>
+  <key id="formfooter-help">texte en-dessous du formulaire</key>
+  <key id="participationfooter">texte sous participation</key>
+  <key id="participationfooter-help">texte affiché sur le site en-dessous du formulaire de la participation</key>
+  <key id="resultfooter">texte en-dessous des résultats</key>
+  <key id="resultfooter-help">texte en-dessous des résultats</key>
+  <key id="notificationsubject">sujet de la notification</key>
+  <key id="notificationsubject-help">sujet de la notification</key>
+  <key id="notificationheader">entête de la notification</key>
+  <key id="notificationheader-help">entête de la notification</key>
+  <key id="notificationbody">corps de la notification</key>
+  <key id="notificationbody-help">corps de la notification</key>
+  <key id="notificationfooter">pied de page de la notification</key>
+  <key id="notificationfooter-help">pied de page de la notification</key>
+  <key id="edition-form-title">Edition d'un quiz</key>
+  <key id="generalities">Generalités</key>
+  <key id="formlayout">Quiz</key>
+  <key id="participationlayout">Participation</key>
+  <key id="resultlayout">Resultats</key>
+  <key id="notification">Notification</key>
+</i18n>
