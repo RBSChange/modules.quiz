@@ -22,16 +22,16 @@
 		<editablelist id="l_title" listid="modules_quiz/title" order="false"
 			label="Civilités pour le module quiz"
 			description="Civilités pour le module quiz">	
-			<item label-fr="M." label-en="Mr"/>
-			<item label-fr="Mlle" label-en="Mlle"/>
-			<item label-fr="Mme" label-en="Mme"/>
+			<item byLabel="M." />
+			<item byLabel="Mlle" />
+			<item byLabel="Mme" />
 		</editablelist>	
 
 		<editablelist id="l_country" listid="modules_quiz/country" order="false"
 			label="Pays pour le module quiz"
 			description="Pays pour le module quiz">	
-			<item label="France" />
-			<item label="Autre"/>
+			<item byLabel="France" />
+			<item byLabel="Autre"/>
 		</editablelist>			
 	</systemfolder>
 		
