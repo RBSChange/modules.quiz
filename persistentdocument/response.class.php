@@ -1,18 +1,6 @@
 <?php
 class quiz_persistentdocument_response extends quiz_persistentdocument_responsebase 
 {
-    
-	/**
-	 * @param string $moduleName
-	 * @param string $treeType
-	 * @param array<string, string> $nodeAttributes
-	 */	
-	protected function addTreeAttributes($moduleName, $treeType, &$nodeAttributes)
-	{
-	    $nodeAttributes['correct'] = $this->getIscorrect() ? 'correct' : '';
-	}
-	
-	
 	private $selectedByUser = false;
 	
 	/**

@@ -74,4 +74,14 @@ class quiz_ResponseService extends f_persistentdocument_DocumentService
 		}
 	}
 
+   	/**
+   	 * @param quiz_persistentdocument_response $document
+	 * @param string $moduleName
+	 * @param string $treeType
+	 * @param array<string, string> $nodeAttributes
+	 */	
+	public function addTreeAttributes($document, $moduleName, $treeType, &$nodeAttributes)
+	{
+	    $nodeAttributes['correct'] = $document->getIscorrect() ? 'correct' : '';
+	}
 }
