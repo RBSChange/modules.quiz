@@ -4,31 +4,31 @@
   <type>change-module</type>
   <license>os</license>
   <repository>private</repository>
-  <version>3.5.0</version>
+  <version>3.5.2</version>
   <description>Sondages</description>
   <dependencies>
     <dependency>
       <name>change-lib/framework</name>
       <versions>
-        <version>3.5.0</version>
+        <version>3.5.2</version>
       </versions>
     </dependency>
     <dependency>
       <name>change-module/generic</name>
       <versions>
-        <version>3.5.0</version>
+        <version>3.5.2</version>
       </versions>
     </dependency>
     <dependency>
       <name>change-module/list</name>
       <versions>
-        <version>3.5.0</version>
+        <version>3.5.2</version>
       </versions>
     </dependency>
     <dependency>
       <name>change-module/abstractdirectory</name>
       <versions>
-        <version>3.5.0</version>
+        <version>3.5.2</version>
       </versions>
     </dependency>
   </dependencies>
